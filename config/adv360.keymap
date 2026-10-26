@@ -81,6 +81,16 @@
             >;
         };
 
+        lay_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans        &trans            &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans        &kp RC(UP_ARROW)  &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp RC(LEFT)  &kp RC(DOWN)      &kp RC(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans        &trans            &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans        &trans            &trans         &trans  &trans
+            >;
+        };
+
         extra1 {
             display-name = "Red";
             status = "reserved";
