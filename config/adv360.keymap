@@ -62,11 +62,11 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1            &kp F2  &kp F3              &kp F4                    &kp F5                     &kp F6  &tog 1                                                      &mo 3   &kp F7                 &kp F8                        &kp F9                       &kp F10                &kp F11                &kp F12
-&trans            &trans  &kp LA(LEFT_SHIFT)  &kp LG(LSHIFT)            &trans                     &trans  &none                                                       &none   &trans                 &trans                        &hm_f RC(UP_ARROW) UP_ARROW  &trans                 &trans                 &trans
-&kp LA(TAB)       &trans  &kp LALT            &kp LEFT_COMMAND          &trans                     &trans  &none             &trans        &trans      &trans  &trans  &none   &trans                 &hm_f RC(LEFT) LEFT           &hm_f RC(DOWN) DOWN          &hm_f RC(RIGHT) RIGHT  &trans                 &trans
-&trans            &trans  &trans              &trans                    &kp LG(LS(V))              &trans                                  &trans      &trans                  &kp RS(RA(RC(RG(N))))  &kp RC(RA(RS(RG(M))))         &kp RS(RA(RC(RG(R))))        &kp RS(RA(RC(RG(W))))  &kp RS(RA(RC(RG(E))))  &trans
-&kp LEFT_COMMAND  &trans  &trans              &kp LG(LS(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))          &kp LEFT_COMMAND  &kp LEFT_ALT  &trans      &trans  &trans  &trans                         &kp RS(RA(RC(RG(UP_ARROW))))  &trans                       &trans                 &trans                 &trans
+&kp F1            &kp F2  &kp F3              &kp F4                    &kp F5                     &kp F6  &tog 1                                                      &mo 3   &kp F7                 &kp F8                 &kp F9                       &kp F10                &kp F11                &kp F12
+&trans            &trans  &kp LA(LEFT_SHIFT)  &kp LG(LSHIFT)            &trans                     &trans  &none                                                       &none   &trans                 &trans                 &hm_f RC(UP_ARROW) UP_ARROW  &trans                 &trans                 &trans
+&kp LA(TAB)       &trans  &kp LALT            &kp LEFT_COMMAND          &trans                     &trans  &none             &trans        &trans      &trans  &trans  &none   &trans                 &hm_f RC(LEFT) LEFT    &hm_f RC(DOWN) DOWN          &hm_f RC(RIGHT) RIGHT  &trans                 &trans
+&trans            &trans  &trans              &trans                    &kp LG(LS(V))              &trans                                  &trans      &trans                  &kp RS(RA(RC(RG(N))))  &kp RC(RA(RS(RG(M))))  &kp RS(RA(RC(RG(R))))        &kp RS(RA(RC(RG(W))))  &kp RS(RA(RC(RG(E))))  &trans
+&kp LEFT_COMMAND  &trans  &trans              &kp LG(LS(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))          &kp LEFT_COMMAND  &kp LEFT_ALT  &trans      &trans  &trans  &trans                         &kp RG(TAB)            &trans                       &trans                 &trans                 &trans
             >;
         };
 
