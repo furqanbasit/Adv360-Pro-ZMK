@@ -35,12 +35,10 @@
         // Space: tap = Space, hold = temporarily switch to Layer 0.
         base_space: base_space {
             compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <0>;
-
+            #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
-
-            bindings = <&return_to_base>, <&kp SPACE>;
+            bindings = <&return_to_base>, <&kp>;
         };
 
         hm: homerow_mods {
@@ -109,7 +107,7 @@
 &kp ESCAPE      &none         &none         &none         &none         &none         &none                                                    &none        &none           &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &none            &none
 &studio_unlock  &none         &none         &mkp RCLK     &mkp LCLK     &none         &none          &none  &none      &bt BT_CLR  &none       &none        &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT  &none
 &none           &none         &none         &none         &mo 0         &trans                              &none      &none                                &none           &mkp RCLK       &mkp LCLK       &none            &none            &none
-&none           &none         &none         &none         &none                       &kp BACKSPACE  &none  &none      &none       &bl BL_TOG  &base_space                  &bl BL_INC      &bl BL_DEC      &none            &none            &none
+&none           &none         &none         &none         &none                       &kp BACKSPACE  &none  &none      &none       &bl BL_TOG  &base_space 0 SPACE                  &bl BL_INC      &bl BL_DEC      &none            &none            &none
             >;
         };
 
