@@ -77,7 +77,7 @@
             bindings = <
 &kp EQUAL                    &kp N1                &kp N2                 &kp N3                          &kp N4                   &hm_f LC(UP_ARROW) N5  &tog 1                                                                                                      &tog 3                 &kp N6  &kp N7   &kp N8     &kp N9    &kp N0    &kp MINUS
 &kp ESCAPE                   &kp Q                 &hm_f LG(W) W          &kp E                           &hm_f LG(R) R            &hm_f LG(T) T          &tog 1                                                                                                      &tog 3                 &kp Y   &kp U    &kp I      &kp O     &kp P     &kp BSLH
-&hm_f LG(TAB) TAB            &kp A                 &kp S                  &lt 4 D                         &lt 2 F                  &hm_f SPACE G          &tog 2                        &kp LCTRL   &kp LALT        &kp RIGHT_CONTROL  &kp RIGHT_COMMAND              &none                  &kp H   &lt 2 J  &kp K      &kp L     &kp SEMI  &kp SQT
+&hm_f LG(TAB) TAB            &kp A                 &kp S                  &lt 4 D                         &lt 2 F                  &hm_f SPACE G          &tog 2                        &kp LCTRL   &kp LALT        &kp RIGHT_CONTROL  &tog 3                         &none                  &kp H   &lt 2 J  &kp K      &kp L     &kp SEMI  &kp SQT
 &kp LSHFT                    &hm_f LG(Z) Z         &kp X                  &hm_f LG(C) C                   &hm_f LG(V) V            &hm_f ENTER B                                                    &kp DELETE      &kp PG_UP                                                                &kp N   &kp M    &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
 &hm_f LEFT_CONTROL LEFT_GUI  &hm_f LEFT_ALT GRAVE  &hm_f CAPS LEFT_SHIFT  &hm_f C_VOLUME_DOWN LEFT_ARROW  &hm_f C_VOLUME_UP RIGHT                         &hm_f LEFT_COMMAND BACKSPACE  &kp DELETE  &kp END         &kp LG(SPACE)      &hm_f RS(RIGHT_COMMAND) ENTER  &hm_f RG(SPACE) SPACE          &kp UP   &kp DOWN   &kp LBKT  &kp RBKT  &kp RIGHT_COMMAND
             >;
@@ -110,9 +110,9 @@
             bindings = <
 &none           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4  &none                                                       &trans               &none           &none           &none           &none            &none            &none
 &kp ESCAPE      &none         &none         &none         &none          &none         &none                                                       &trans               &none           &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &none            &none
-&studio_unlock  &none         &none         &mkp RCLK     &mkp LCLK      &none         &none          &none  &none      &none          &none       &none                &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT  &none
+&studio_unlock  &none         &none         &mkp RCLK     &mkp LCLK      &none         &none          &none  &none      &none          &trans      &none                &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT  &none
 &none           &none         &none         &none         &mo 0          &trans                              &none      &none                                           &none           &mkp RCLK       &mkp LCLK       &none            &none            &none
-&none           &none         &none         &kp K_BACK    &kp K_FORWARD                &kp BACKSPACE  &none  &none      &kp LG(SPACE)  &bl BL_TOG  &base_space 0 SPACE                  &bl BL_INC      &bl BL_DEC      &none            &none            &none
+&none           &none         &none         &kp LG(LEFT)  &kp LG(RIGHT)                &kp BACKSPACE  &none  &none      &kp LG(SPACE)  &bl BL_TOG  &base_space 0 SPACE                  &bl BL_INC      &bl BL_DEC      &none            &none            &none
             >;
         };
 
