@@ -108,11 +108,11 @@
         mod {
             display-name = "Mod";
             bindings = <
-&none           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4  &none                                                       &trans               &none           &none           &none           &none            &none            &none
-&kp ESCAPE      &none         &none         &none         &none          &none         &none                                                       &trans               &none           &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &none            &none
-&studio_unlock  &none         &none         &mkp RCLK     &mkp LCLK      &none         &none          &none  &none      &none          &trans      &none                &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT  &none
-&none           &none         &none         &none         &mo 0          &trans                              &none      &none                                           &none           &mkp RCLK       &mkp LCLK       &none            &none            &none
-&none           &none         &none         &kp LG(LEFT)  &kp LG(RIGHT)                &kp BACKSPACE  &none  &none      &kp LG(SPACE)  &bl BL_TOG  &base_space 0 SPACE                  &bl BL_INC      &bl BL_DEC      &none            &none            &none
+&none           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4  &none                                                           &trans               &none           &none           &none           &none            &none            &none
+&kp ESCAPE      &none         &none         &none         &none          &none         &none                                                           &trans               &none           &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &none            &none
+&studio_unlock  &none         &none         &mkp RCLK     &mkp LCLK      &none         &none          &none       &none      &none          &trans     &none                &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT  &none
+&none           &none         &none         &none         &mo 0          &trans                                   &none      &none                                          &none           &mkp RCLK       &mkp LCLK       &none            &none            &none
+&none           &none         &none         &kp LG(LEFT)  &kp LG(RIGHT)                &kp BACKSPACE  &bl BL_TOG  &none      &kp LG(SPACE)  &kp ENTER  &base_space 0 SPACE                  &bl BL_INC      &bl BL_DEC      &none            &none            &none
             >;
         };
 
