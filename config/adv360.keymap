@@ -7,7 +7,7 @@
 
 // Override ZMK's default mouse speed limits
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // Default is 600. Higher numbers are faster.
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 2000  // Default is 600. Higher numbers are faster.
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 30    // Default is 10. Higher numbers scroll faster.
 
 // Add the scrolling speed ramp-up block right here:
